@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" ng-app>
+  <head>
+    <title>TheNetNinja Angular Playlist</title>
+    <link href="content/css/02_Expression.css" rel="stylesheet" type="text/css"/>
+    <script src="app/lib/angular.min.js"></script>
+  </head>
+  <body ng-init="numbers=[1,2,3,4]; str=['a','b','c','d']; color='blue'">
+    <p>{{1 + 2}}</p>
+    <p>{{numbers[0]}}</p>
+    <p>{{numbers[2] + numbers[3]}}</p>
+    <p>first letter = {{str[0]}} in english language</p>
+    <p class="{{color}}">changing styles with ng-directives in the form of HTML attributes</p>
+  </body>
+</html>
